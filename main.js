@@ -11,7 +11,7 @@ async function getPokemon(id){
 }
 
 async function init(){
-    const firstPokemon = await getPokemon(150);
+    const firstPokemon = await getPokemon('mewtwo');
     upDatePokemon(firstPokemon)
 
 }
